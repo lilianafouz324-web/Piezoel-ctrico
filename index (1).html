@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piezoeléctricas</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+
+  <header>
+    <img src="logo.jpeg" alt="Logo de la escuela">
+    <h1>Piezoeléctricas</h1>
+    <p>Generación de energía mediante las pisadas</p>
+
+  
+    <button id="tema-btn">Modo oscuro</button>
+
+   
+    <button id="menu-btn">☰</button>
+    <nav id="nav-menu" class="oculto">
+      <a href="#informacion">Información</a>
+      <a href="#descripcion">El proyecto</a>
+      <a href="#imagenes">Imágenes</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+ 
+  <div class="contenedor">
+
+    <section class="informacion" id="informacion">
+      <h2>Información del proyecto</h2>
+      <p><strong>Nombre del proyecto:</strong> Baldosas Piezoeléctricas</p>
+      <p><strong>Integrantes:</strong> David Fouz - David Zabala - Dylan Chocobar - Uziel Gonzalez</p>
+      <p><strong>Curso:</strong> 6° 3°</p>
+      <p><strong>Colegio:</strong> E.E.S.T.n°2</p>
+      <p><strong>Año:</strong> 2026</p>
+    </section>
+
+    <section class="descripcion" id="descripcion">
+      <h2>¿De qué se trata nuestro proyecto?</h2>
+      <p>Nuestro proyecto consiste en crear un piso formado por baldosas piezoeléctricas capaces de generar energía eléctrica cuando una persona camina sobre ellas.</p>
+      <p>Al pisar la baldosa se ejerce una presión sobre los elementos piezoeléctricos que se encuentran debajo. Estos elementos producen una pequeña cantidad de electricidad.</p>
+      <p>La energía generada puede ser almacenada en una batería y luego utilizarse para alimentar luces LED u otros dispositivos de bajo consumo.</p>
+      <p>La idea principal es aprovechar la energía producida por el movimiento de las personas y demostrar una forma alternativa de generar energía.</p>
+    </section>
+
+    <div class="contenedor-imagenes" id="imagenes">
+      <div class="imagen-proyecto">
+        <h2>Proyecto en un área reducida</h2>
+        <img src="foto.jpeg" alt="Los piezoeléctrico dentro de una area reducida">
+      </div>
+       <div class="imagen-proyecto">
+        <h2>Proyecto en un área reducida</h2>
+        <img src="planobase.png" alt="Plano del proyecto">
+      </div>
+      <div class="imagen-proyecto">
+        <h2>Funcionamiento del proyecto</h2>
+        <img src="funcion.jpeg" alt="Funcionamiento de un piezoeléctrico">
+      </div>
+    </div>
+
+    
+    <section class="informacion" id="contacto">
+      <h2>Contacto</h2>
+      <form id="form-contacto">
+        <input type="text" id="nombre" placeholder="Tu nombre">
+        <input type="email" id="email" placeholder="Tu correo">
+        <p id="mensaje-error" style="color: red;"></p>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </div>
+
+
+  <footer>
+    <p>Proyecto escolar - Piezoeléctricas - 2026</p>
+  </footer>
+
+ 
+  <script src="script.js"></script>
+</body>
+</html>
